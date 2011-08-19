@@ -6,7 +6,7 @@
 Summary:	PHP Defcon extension
 Name:		php-%{modname}
 Version:	1.0.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 Group:		Development/PHP
 License:	PHP
 URL:		http://www.xarg.org/project/php-defcon/
