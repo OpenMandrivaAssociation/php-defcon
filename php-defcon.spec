@@ -13,6 +13,7 @@ URL:		http://www.xarg.org/project/php-defcon/
 Source0:	http://www.xarg.org/download/defcon-%{version}.tar.gz
 Source1:	B18_defcon.ini
 Source2:	defcon.conf
+Patch0:		defcon-1.0.0-php54x.diff
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -23,6 +24,8 @@ during the whole server runtime - from server start to shutdown.
 %prep
 
 %setup -q -n %{modname}-%{version}
+
+%patch0 -p0
 
 cp %{SOURCE1} %{inifile}
 cp %{SOURCE2} defcon.conf
