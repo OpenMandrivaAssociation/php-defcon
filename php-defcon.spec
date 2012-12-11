@@ -74,3 +74,30 @@ rm -rf %{buildroot}
 %config(noreplace) %attr(0644,root,root) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/%{soname}
 
+
+
+%changelog
+* Sun May 06 2012 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-5mdv2012.0
++ Revision: 797124
+- fix build
+- rebuild for php-5.4.x
+
+* Sun Jan 15 2012 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-4
++ Revision: 761215
+- rebuild
+
+* Wed Aug 24 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-3
++ Revision: 696408
+- rebuilt for php-5.3.8
+
+* Fri Aug 19 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-2
++ Revision: 695381
+- rebuilt for php-5.3.7
+
+* Fri May 20 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1
++ Revision: 676255
+- import php-defcon
+
+
+* Fri May 20 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1mdv2010.2
+- initial Mandriva package
