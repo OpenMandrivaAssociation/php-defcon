@@ -9,7 +9,7 @@ Version:	1.0.0
 Release:	6
 Group:		Development/PHP
 License:	PHP
-URL:		http://www.xarg.org/project/php-defcon/
+URL:		https://www.xarg.org/project/php-defcon/
 Source0:	http://www.xarg.org/download/defcon-%{version}.tar.gz
 Source1:	B18_defcon.ini
 Source2:	defcon.conf
